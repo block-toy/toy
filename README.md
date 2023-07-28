@@ -2,15 +2,15 @@
 
 declarative syntax ，you can describe the desired UI and its behavior using a series of structured statements rather than imperatively defining each individual UI element
 
-## about
+### data flow 
 
 ### demo1
 
 ```js
 const Layout = VStack(
-  'aaaa',
-  'bbbb'.click(xxxxx),
-  Div('cccc').click().margin().padding().styles({})
+  text('aaaa'),  
+  text('bbbb').click(xxxxx),
+  view('cccc').click().margin().padding().styles({})
 );
 ```
 
